@@ -278,20 +278,20 @@ header{
     }
 }
 
-/* Things */
+/* Skill */
 
-#things {
+#skill {
     position: relative;
     overflow-x: hidden;
     margin-top:  15em;
 }
 
-#things h2 {
+#skill h2 {
     text-align:  center;
     color: var(--gray);
     margin-bottom: 3em;
 }
-.things_dec {
+.skill_dec {
     position: absolute;
     top: 0;
     left: 0;
@@ -299,7 +299,7 @@ header{
     z-index: -1;
 }
 
-.things_dec:nth-child(2) {
+.skill_dec:nth-child(2) {
     top: initial;
     left:  initial;
     bottom: 15%;
@@ -309,20 +309,20 @@ header{
 }
 
 
-.things__item {
+.skill__item {
     margin: 3em 0;
 }
 
-.things__item img {
+.skill__item img {
     padding-bottom:  4em;
 }
 
-.things__item--heading{
+.skill__item--heading{
     text-align: center;
     color:  var(--gray);
 }
 
-.things__item--heading p {
+.skill__item--heading p {
     font-weight:  300;
     line-height: 2em;
     max-width: 300px;
@@ -331,49 +331,49 @@ header{
 }
 
 @media (min-width: 62em) {
-    .things__item {
+    .skill__item {
         display: flex;
         justify-content: space-between;
         align-items:  center;
         margin: 0;
     }
-    .things__item img {
+    .skill__item img {
         width:  40%;
         padding-bottom: 0;
     }
-    .things__item--heading {
+    .skill__item--heading {
         width: 45%;
         text-align: initial;
     }
-    .things__item--heading p {
+    .skill__item--heading p {
         max-width: 500px;
         margin: 0;
     }
-    .things__item:nth-child(odd) img {
+    .skill__item:nth-child(odd) img {
         order: 2;
         width: 40%;
         padding-bottom: 0;
     }
-    .things__item--heading:nth-child(odd) {
+    .skill__item--heading:nth-child(odd) {
         order: 1;
         width: 45%;
         text-align:  initial;
     }
 }
 
-/* Works */
-#works {
+/* project */
+#project {
     padding-top: 10em;
     position: relative;
     overflow-x: hidden;
 }
 
-#works h2 {
+#project h2 {
     text-align: center;
     color: var(--gray);
 }
 
-.works__dec {
+.project__dec {
     position: absolute;
     top: 0;
     left: 0;
@@ -381,7 +381,7 @@ header{
     z-index: -1;
 }
 
-.works__dec:nth-child(2) {
+.project__dec:nth-child(2) {
     position: absolute;
     top: initial;
     left: initial;
@@ -392,41 +392,41 @@ header{
 }
 
 
-.works__img--single {
+.project__img--single {
     margin: 2em 0;
 }
 
-.works__img--single:nth-child(odd) {
+.project__img--single:nth-child(odd) {
     padding-top: 5em;
 }
 
-.works__img--single:nth-child(3) {
+.project__img--single:nth-child(3) {
     margin-top: -5em;
 }
 
-.works__btn {
+.project__btn {
     text-align: center;
     margin-top: 8em;
 }
 
-.works__btn button {
+.project__btn button {
     font-size: 1rem;
 }
 
 @media (min-width: 62em) {
-    #works h2 {
+    #project h2 {
         margin-bottom: 3em;
     }
-    .works__img {
+    .project__img {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .works__img--single {
+    .project__img--single {
         margin: 0 5em;
         width: 35%;
     }
-    .works__img--single:nth-child(3) {
+    .project__img--single:nth-child(3) {
         margin-top: 0;
     }
 }
